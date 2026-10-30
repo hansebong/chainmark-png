@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+/results/
+png_workspace/
+.idea/
+
+# Local tracing state contains the generated HMAC key and receipt database.
+**/.chainmark/
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+key.bin
+.env
+.env.*
+!.env.example
+
+# Checksums of the bundled runtime output are regenerated, not source code.
+/SHA256SUMS.json
